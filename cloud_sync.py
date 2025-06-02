@@ -3,7 +3,7 @@ import os
 
 s3 = boto3.client('s3')
 
-BUCKET_NAME = "your-bucket-name"
+BUCKET_NAME = "Jeremiah9980"
 
 # Sync local logs folder to S3
 for filename in os.listdir("logs"):
